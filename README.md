@@ -1,4 +1,4 @@
-# rowsafe-sh
+# Rowsafe
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rowsafe-sh is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rowsafe.sh/
+Rowsafe provides managed database services, offering both cloud-hosted and BYOC (bring your own cloud) options. It supports PostgreSQL, MySQL, MariaDB, ClickHouse, Valkey, OpenSearch, Qdrant, and Meilisearch, with features like AI agents, automated performance tuning, backup, and security monitoring. The platform includes a dashboard for query analysis and optimization, free tier for a single server, and pricing starting at $10 per month.
+
+**Areas:** Company · Database · Cloud · ManagedService · OpenSource
+
+## Rowsafe on APIs.io
+
+Everything profiled for Rowsafe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rowsafe-sh/](https://apis.io/providers/rowsafe-sh/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Rowsafe API](https://apis.io/apis/rowsafe-sh/rowsafe-sh-api/) — Rowsafe API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Rowsafe Sh Webhooks](https://apis.io/asyncapis/rowsafe-sh/rowsafe-sh-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1DatabasesRefLogsOverviewResponse](https://apis.io/schemas/rowsafe-sh/rowsafe-sh-get-v1-databases-ref-logs-overview-response/)
+- [PostV1AskRequest](https://apis.io/schemas/rowsafe-sh/rowsafe-sh-post-v1-ask-request/)
+- [PostV1AskResponse](https://apis.io/schemas/rowsafe-sh/rowsafe-sh-post-v1-ask-response/)
+- [PostV1LogDestinationsRequest](https://apis.io/schemas/rowsafe-sh/rowsafe-sh-post-v1-log-destinations-request/)
+- [PutV1AskKeyRequest](https://apis.io/schemas/rowsafe-sh/rowsafe-sh-put-v1-ask-key-request/)
+- [PutV1AskSettingsRequest](https://apis.io/schemas/rowsafe-sh/rowsafe-sh-put-v1-ask-settings-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rowsafe Sh Context](https://apis.io/jsonld/rowsafe-sh/rowsafe-sh-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Rowsafe API Rules](https://apis.io/rules/rowsafe-sh/rowsafe-sh-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rowsafe Domain Security](https://apis.io/security/rowsafe-sh/rowsafe-sh-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rowsafe Plans Pricing](https://apis.io/plans/rowsafe-sh/rowsafe-sh-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rowsafe.sh/)
+- [Documentation](https://rowsafe.sh/docs)
+- [Getting started](https://rowsafe.sh/docs/quickstart)
+- [API reference](https://rowsafe.sh/docs/reference/cli)
+- [Pricing](https://rowsafe.sh/pricing)
+- [Sign up](https://app.rowsafe.sh/sign-up)
+- [Changelog](https://rowsafe.sh/changelog)
+- [Security](https://rowsafe.sh/security)
+- [Terms of service](https://rowsafe.sh/legal/terms)
+- [Privacy policy](https://rowsafe.sh/legal/privacy)
+- [Status](https://rowsafe.sh/status)
+
+## API Evangelist rating
+
+**Kin Score 60.1** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 60.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 37.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rowsafe-sh/](https://apis.io/providers/rowsafe-sh/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rowsafe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rowsafe-sh/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
